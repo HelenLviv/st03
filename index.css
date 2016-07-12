@@ -117,10 +117,10 @@ img{
 }
 
 #secondary-menu{
-    background-color: green;
+    
     position: relative;
-    top: 100px;
-    height: 100px;
+    top: 50px;
+    min-height: 100%;
     width: 80%;
     text-align: center;
     margin: 0 auto;
