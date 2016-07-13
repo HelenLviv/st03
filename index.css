@@ -178,8 +178,7 @@ img{
     
 }
 
-.container{
-    background-color: #fff;
+#container{
     position: relative;
     top: 250px;
     height: 500px;
@@ -190,6 +189,9 @@ img{
     background-position: right;
 }
 
+.row{
+    background-color: #fff;
+}
 #footer{
    position: absolute;
    left: 0;
