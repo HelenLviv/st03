@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>художній дизайн</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="assets/slick/slick/fonts/slick.css"/>
-    <link rel="stylesheet" type "text/css" href="assets/slick/slick/fonts/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
    <div id="wrapper">
@@ -23,36 +23,59 @@
            </div> 
         </div>
         <div id="content">
-          <div id="slider">
-             <div class="designroom">
-                 <ul> 
-                    <div><image src="image/2/1.jpg" alt="foto room1" width="800" height="600"/>
-                        <p>Фото вітальні1</p>
-                    </div>
-                    <div><image src="image/2/2.jpg" alt="foto room2" width="800" height="600"/>
-                        <p>Фото дівочого куточку</p>
-                    </div>
-                    <div><image src="image/2/3.jpg" alt="foto room2" width="800" height="600"/>
-                        <p>Фото спальні</p>
-                    </div>
-                    <div><image src="image/2/15.jpg" alt="foto room3" width="800" height="600"/>
-                        <p>Фото вітальні2</p>
-                    </div>
-                    <div><image src="image/2/18.jpg" alt="foto room4" width="800" height="600"/>
-                        <p>Фото вітальні3</p>
-                    </div>
-                    <div><image src="image/2/25.jpg" alt="foto room5" width="800" height="600"/>
-                        <p>Фото дитячої кімнати</p>
-                    </div>
-                    <div><image src="image/2/27.jpg" alt="foto room6" width="800" height="600"/>
-                        <p>Фото вітальн4</p>
-                    </div>
-                </ul>
-                </div> 
-                </div>
-                </div>
-                <div class="clear"></div>
-             
+          <div class="sl">
+              <div class="sl_slide">
+                  <img src="image/2/1.jpg" alt="foto room1" class="sl_img">
+                  <div class="sl__text">
+                      <h3 class="sl__zag">slide 1</h3>
+                      <p class="sl__desc">Фото кімнати 1</p>
+                  </div>
+              </div>
+              <div class="sl_slide">
+                  <img src="image/2/2.jpg" alt="foto room2" class="sl_img">
+                  <div class="sl__text">
+                      <h3 class="sl__zag">slide 2</h3>
+                      <p class="sl__desc">Фото кімнати 2</p>
+                  </div>
+              </div>
+              <div class="sl_slide">
+                  <img src="image/2/3.jpg" alt="foto room3" class="sl_img">
+                  <div class="sl__text">
+                      <h3 class="sl__zag">slide 3</h3>
+                      <p class="sl__desc">Фото кімнати 3</p>
+                  </div>
+              </div>
+              <div class="sl_slide">
+                  <img src="image/2/15.jpg" alt="foto room4" class="sl_img">
+                  <div class="sl__text">
+                      <h3 class="sl__zag">slide 4</h3>
+                      <p class="sl__desc">Фото кімнати 4</p>
+                  </div>
+              </div>
+              <div class="sl_slide">
+                  <img src="image/2/18.jpg" alt="foto room5" class="sl_img">
+                  <div class="sl__text">
+                      <h3 class="sl__zag">slide 5</h3>
+                      <p class="sl__desc">Фото кімнати 5</p>
+                  </div>
+              </div>
+              <div class="sl_slide">
+                  <img src="image/2/25.jpg" alt="foto room6" class="sl_img">
+                  <div class="sl__text">
+                      <h3 class="sl__zag">slide 6</h3>
+                      <p class="sl__desc">Фото кімнати 6</p>
+                  </div>
+              </div>
+              <div class="sl_slide">
+                  <img src="image/2/27.jpg" alt="foto room7" class="sl_img">
+                  <div class="sl__text">
+                      <h3 class="sl__zag">slide 7</h3>
+                      <p class="sl__desc">Фото кімнати 7</p>
+                  </div>
+              </div>
+          </div>
+         <div class="clear"></div>
+    </div>    
         <div id="footer">
             <div class="footer_logo">
                <img src="image/logo.png" alt="logo" />
@@ -62,9 +85,10 @@
               
             
             
-     <script src="//code.jquery.com/jquery-3.0.0.js"   integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo="   crossorigin="anonymous"></script>       
-     <script src="js/my.js"></script>        
-     <script src="assets/slick/slick/fonts/slick.js"></script>       
+     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+     <script type="text/javascript" src="slick/slick.min.js"></script>
+     <script src="js/my.js"></script>
   </div>
 </body>
 </html>

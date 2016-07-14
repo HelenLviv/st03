@@ -11,6 +11,7 @@ html{
 body{
     font: 14px/1.5 Arial;
     text-align: center;
+    background-color: inherit;
 }
 
 h1{
@@ -127,13 +128,61 @@ img{
 }
 
 #content{
-   width: 100%;
+   max-width: 800px;
    position: relative;
-   top: 150px;
+   top: 5px;
    color: yellow;
    margin: 0 auto;
-   padding-bottom: 100px;
+   padding-bottom: 150px;
    background-color: rgba(0,130,59,0.7);
+}
+
+.sl_slide{
+    position: relative;  
+}
+
+.sl__text{
+    position: absolute; 
+    bottom: 0;
+    background-color: rgba(0,130,59,0.7);
+    width: 100%;
+    color: yellow;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,130,59,0.7);
+    padding: 20px 0;
+}
+
+.sl__zag, .sl__desc{
+    margin: 0;
+    padding: 0 10px;
+}
+
+
+#info{
+   width: 80%;
+   height: 280px;
+   position: relative;
+   top: 40px;
+   color: black;
+   margin: 0 auto;
+   background-color: #fff;
+}
+#info > img {
+    width: 300px;
+    height: 220px;
+    position: relative;
+    top: -15px;
+    right: 50px;
+    float: left;
+    margin: 0 auto;
+}
+
+#info > p {
+    position: relative;
+    top:10px;
+    left: 8px;
+    font: 14px/1.2 Arial;
+    text-align:left;
 }
 
 .top_line{
@@ -180,18 +229,28 @@ img{
 #container{
    width: 100%;
    position: relative;
-   top: 150px;
+   top: 30px;
+   bottom:100px;
    margin: 0 auto;
-   padding-bottom: 100px;
-   float: left;
+   padding-bottom: 10px;
+   color: black;
+   background-position: right;
+   
 }
 
 #form{
-    position: relative;
-    bottom: 50px;
     background-color: #fff;
+}
+
+.row{
+    color: black;
+    position: relative;
+    top:15px;
+    bottom: 100px;
+    padding-bottom: 50px;
+    background-color: inherit;
     background-repeat: no-repeat;
-    background-position: right;
+    
 }
 #footer{
    position: absolute;

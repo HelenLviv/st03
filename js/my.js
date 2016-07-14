@@ -1,5 +1,3 @@
-"use strict";
-jQuery(document).ready(function(){
-   jQuery('#slider').slick();
+(document).ready(function(){
+  ('.sl').slick();
 });
-
